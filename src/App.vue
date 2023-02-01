@@ -1,7 +1,7 @@
 <!--
  * @Author: 蚊子
  * @Date: 2022-08-11 00:59:38
- * @LastEditTime: 2023-02-01 09:21:28
+ * @LastEditTime: 2023-02-01 09:32:27
  * @LastEditors: 蚊子
  * @Description: 
  * @FilePath: /va-admin-tabs/src/App.vue
@@ -39,10 +39,8 @@
 </template>
 
 <script setup lang="ts">
-// import ButtonTab from './ButtonTab.vue';
-// import ChromeTab from './ChromeTab.vue';
-import { ButtonTab, ChromeTab } from "va-admin-tabs"
-// import { ButtonTab, ChromeTab } from "../dist/index"
+import ButtonTab from './ButtonTab.vue';
+import ChromeTab from './ChromeTab.vue';
 import { useBoolean } from './hooks';
 
 const { bool: darkMode, toggle } = useBoolean();

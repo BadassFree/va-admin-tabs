@@ -1,7 +1,7 @@
 {
   "name": "va-admin-tabs",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "a tab component of admin template, support vue2 and vue3",
   "author": "BadassFree (lixiaowen207@gmail.com)",
   "license": "MIT",
@@ -37,7 +37,6 @@
   "dependencies": {
     "colord": "^2.9.3",
     "css-render": "^0.15.12",
-    "va-admin-tabs": "^0.0.1",
     "vue-demi": "^0.13.11"
   },
   "peerDependencies": {
